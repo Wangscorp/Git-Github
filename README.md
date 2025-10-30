@@ -3,7 +3,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  <img src="data:image/png;base64,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" alt="GDG">
 </div>
 
 Welcome! This guide is brought to you by the **GDG OC Kabarak Leads**. We'll teach you Git and GitHub in simple steps. Git helps you keep track of changes in your code, like a time machine for your files. GitHub lets you share your code online and work with others. Let's get started! 🚀
@@ -66,11 +65,15 @@ Replace "Your Name" and "your.email@example.com" with your real name and email.
 3. Type `git commit -m "My first changes"` to save your changes. The message in quotes describes what you did.
 
 ### Checking Your Work
-- `git status` - See what files have changed.
-- `git log` - See all your save points (commits).
+```
+git status          # See what files have changed
+git log             # See all your save points (commits)
+```
 
 ### Undoing Mistakes
-- `git checkout -- filename` - Undo changes to a specific file.
+```
+git checkout -- filename    # Undo changes to a specific file
+```
 
 ## What is GitHub? 🌐
 GitHub is like a cloud storage for your Git projects. It's where developers share their code, find cool projects, and work together with friends from anywhere. GitHub makes it easy to show your work and contribute to other's projects.
