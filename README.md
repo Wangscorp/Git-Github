@@ -1,5 +1,11 @@
 # Easy Git and GitHub Guide for Beginners 🌟
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://user-images.githubusercontent.com/12037401/72600878-0d1d6f80-3923-11ea-9b57-c3ebf5db8b9f.png" alt="GDG">
+</div>
+
 Welcome! This guide is brought to you by the **GDG OC Kabarak Leads**. We'll teach you Git and GitHub in simple steps. Git helps you keep track of changes in your code, like a time machine for your files. GitHub lets you share your code online and work with others. Let's get started! 🚀
 
 ## Table of Contents
