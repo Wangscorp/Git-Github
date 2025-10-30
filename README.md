@@ -30,9 +30,14 @@ Git works on Windows, Mac, and Linux. Here's how to install it:
 2. Open the downloaded file and install it like any other program.
 
 ### Mac
-1. Open your Terminal app.
-2. Copy and paste this command and press Enter: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-3. Wait for it to finish, then type: `brew install git`
+1. **Install Homebrew** (a package manager for Mac):
+   - Open your Terminal app.
+   - Copy and paste this command, then press Enter: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+   - Follow any on-screen prompts and wait for installation to complete.
+
+2. **Install Git** using Homebrew:
+   - In Terminal, type: `brew install git`
+   - Git is now installed! Check with `git --version`.
 
 ### Linux (Ubuntu)
 1. Open your Terminal.
@@ -140,7 +145,7 @@ Want to update your website?
 SSH allows secure connections to GitHub without typing passwords. It's faster for experienced users!
 
 ### Step 1: Generate Your SSH Key
-- Open Terminal/Command Prompt.
+- Open Terminal/Command Prompt (on Windows, use Git Bash that comes with Git).
 - Type: `ssh-keygen -t ed25519 -C "your.email@example.com"`
 - Press Enter for defaults (or choose a path).
 - You'll see a passphrase prompt - press Enter twice (or set one).
@@ -149,6 +154,7 @@ This creates `id_ed25519.pub` and `id_ed25519` files.
 
 ### Step 2: Add SSH Key to GitHub
 1. Copy the contents of the `.pub` file: `cat ~/.ssh/id_ed25519.pub`
+   - On Windows Command Prompt/PowerShell, use: `type %USERPROFILE%\.ssh\id_ed25519.pub`
 2. Go to GitHub → Settings → SSH and GPG keys → New SSH key.
 3. Paste the key, give it a title like "My Laptop", click Add.
 
@@ -199,4 +205,4 @@ If you run into problems or have questions while following this guide, contact u
 
 We're here to help! 😊
 
-Happy coding! If you have questions, ask in any coding community. Everyone started somewhere! 🌟
+Happy coding! If you have questions, ask in our GDG OC Kabarak community. Everyone started somewhere! 🌟
